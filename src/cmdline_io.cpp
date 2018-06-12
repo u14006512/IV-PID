@@ -14,6 +14,8 @@
 #endif
 #include "strings.h"
 #include "io.h"
+#include <cstdio>
+#include <cstdlib>
 using namespace std;
 
 void Pause() {
