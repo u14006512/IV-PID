@@ -33,3 +33,7 @@ $(OBJ)/%.o: $(SRC)/%.cpp $(OBJ)
 
 iv-pid_%: $(OBJ)/iv-pid.o $(OBJ)/$(IO).o $(OBJ)/func.o $(OBJ)/strings_%.o
 	$(CXX) $(CXXFLAGS) $^ -o $@
+
+
+run:
+	./iv-pid_eng.exe
